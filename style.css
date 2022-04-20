@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 3%, 89%);
+    font-family: 'Commissioner', sans-serif;
+}
+#header-img{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
+
+
+.nav-bar ul{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    font-family: 'Commissioner', sans-serif;
+    position: relative;
+    margin-top: -2.0rem;
+    margin-left: 84.8rem;
+    display: flex;
+    gap: 2.0rem;
+
+}
+
+#logo{
+    position: relative;
+    margin-top: 4rem ;
+ margin-left: 13.8rem;
+}
+
+.top-card{
+    background-color: rgb(247, 247, 247);
+    max-width: 50vw;
+    margin: auto;
+    margin-top: 20rem;
+    text-align: center;
+
+}
+#mastercraft-logo{
+    position: relative;
+    top: -2.5rem;
+}
+
+#top-card, h1{
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
