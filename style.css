@@ -6,42 +6,49 @@
     padding: 0;
 }
 body{
-    background-color: hsl(0, 3%, 89%);
+    margin:auto;
+    min-width: 1400px;
+    max-width: 1400px;
+    background-color: hsl(0, 18%, 96%);
     font-family: 'Commissioner', sans-serif;
+    
 }
-#header-img{
+
+#header-imgg{
     width: 100%;
-    position: absolute;
+}
+
+.top-img-nav{
+    position: relative;
     z-index: -1;
 
 }
-
-
 .nav-bar ul{
     font-size: 16px;
     color: rgb(255, 255, 255);
     list-style: none;
-    font-family: 'Commissioner', sans-serif;
-    position: relative;
-    margin-top: -2.0rem;
-    margin-left: 84.8rem;
+    position: absolute;
+    top: 46px;
+    right: 115px;
     display: flex;
     gap: 2.0rem;
-
 }
-
-#logo{
-    position: relative;
-    margin-top: 4rem ;
- margin-left: 13.8rem;
+#crowdfund{
+    position: absolute;
+    top: 46px;
+    left: 160px;
+    max-width: 100%;
 }
 
 .top-card{
     background-color: rgb(247, 247, 247);
-    max-width: 50vw;
     margin: auto;
-    margin-top: 20rem;
+    width: 743px;
+    border-radius: 7px;
+    margin-top: -8rem;
     text-align: center;
+    font-weight: 800;
+    border: 1px solid rgb(210, 209, 209);
 
 }
 #mastercraft-logo{
@@ -49,21 +56,85 @@ body{
     top: -2.5rem;
 }
 
-#top-card, h1{
+#top-card-h1{
     padding-bottom: 1.5rem; 
     font-size: 28px;
+
 }
 #top-card, p{
-    opacity: 0.5;
+    opacity: 0.4;
+    font-size: 16px;
 }
 
 .button-flex{
-    padding: 5rem;
+    padding: 4rem;
     display: flex;
-    
-    gap: 2.0rem;
+    justify-content: space-between;
+
 }
 
-.button-flex, button{
-    align-items: center;
+.green-btn{
+    font-size: 16px;
+    background-color: hsl(176, 50%, 47%);
+    color: aliceblue;
+    padding: 1.5rem 3.7rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.grey-btn{
+    /* make btn image as bg image and slide left */
+    background-image: url(./images/icon-bookmark.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center left 0px;
+    font-size: 16px ;
+    border: none;
+    border-radius: 30px;
+    font-weight: 500;
+    background-color: hsl(0, 0%, 84%);
+    padding: 0rem 3.5rem;
+    color: rgba(0, 0, 0, 0.654);
+}
+
+#dv{
+    margin-left: 2rem;
+}
+
+.mid-card{
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    margin: auto;
+    width: 743px;
+    border-radius: 7px;
+    text-align: center;
+    font-weight: 800;
+    border: 1px solid rgb(210, 209, 209);
+    padding: 4rem;
+    justify-content:center;
+    padding-right: 140px;
+    text-align: left;
+    gap: 1rem;
+
+}
+
+.all-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.mid-card div h1{
+    font-size: 35px;
+
+  
+}
+.mid-card div p{
+
+    padding-top: -5rem;
+}
+.vertical-line{
+    border-left: 2px solid rgba(128, 128, 128, 0.394);
+    height: 60px;
+    padding-left: 5rem;
+
 }
