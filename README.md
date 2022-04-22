@@ -1,2 +1,2 @@
 
-https://superb-fenglisu-ddfcb0.netlify.app/
+https://stalius4.github.io/website-clone/
